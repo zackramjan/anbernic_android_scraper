@@ -2,5 +2,7 @@
     "user": "your_user",
     "password": "your_password",
     "media_type": "ss",
-    "region": "wor"
+    "region": "wor",
+    "romspath": "/Volumes/osxhs/Users/zack/Downloads/roms",
+    "imagedir": "images"
 }
