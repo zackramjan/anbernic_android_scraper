@@ -19,6 +19,7 @@ def start(config_path: str) -> None:
 def process() -> None:
     available_systems = scraper.get_available_systems(scraper.romspath)
     for selected_system in available_systems:
+        print(f"Checking for  {selected_system} roms...")
         roms_list = scraper.get_roms(scraper.romspath, selected_system)
         system_path = Path(scraper.romspath) / selected_system
         imgs_folder = Path(f"{scraper.romspath}/{selected_system}/{scraper.imagedir}")
@@ -45,8 +46,7 @@ def process() -> None:
                 if screenshot:
                     img_path: Path = imgs_folder / f"{rom.name}.png"
                     img_path.write_bytes(screenshot)
-                    print(f"Done scraping {rom.name}. Saved file to {img_path}")
-                    success += 1
+                    print(f"found image for {rom.name}. Saved file to {img_path}")
                 else:
                     print(f"Failed to get screenshot for {rom.name}")
    
