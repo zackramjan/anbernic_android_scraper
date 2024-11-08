@@ -89,6 +89,7 @@ systems = [
         "extensions": ["cue", "ccd", "chd", "pce", "iso", "sgx", "zip"],
     },
     {"name": "poke", "id": 211, "extensions": ["min", "zip"]},
+    {"name": "ps2", "id": 58, "extensions": ["iso","bin"]},
     {
         "name": "psp",
         "id": 61,
@@ -128,6 +129,10 @@ systems = [
     {"name": "md", "id": 1, "extensions": ["gen", "md", "smd", "bin", "sg", "zip"]},
     {"name": "n64", "id": 14, "extensions": ["n64", "v64", "z64", "bin", "zip"]},
     {"name": "neogeo", "id": 0, "extensions": ["zip"]},
+    {"name": "ngc", "id": 13, "extensions": ["iso"]},
+    {"name": "wii", "id": 16, "extensions": ["iso"]},
+    {"name": "3ds", "id": 17, "extensions": ["3ds"]},
+
     {"name": "openbor", "id": 214, "extensions": ["pak", "zip"]},
     {"name": "pgm2", "id": 0, "extensions": ["zip"]},
     {
