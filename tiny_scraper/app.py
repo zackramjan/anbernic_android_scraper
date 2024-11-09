@@ -46,7 +46,7 @@ def process() -> None:
                 if screenshot:
                     img_path: Path = imgs_folder / f"{rom.name}.png"
                     img_path.write_bytes(screenshot)
-                    print(f"found image for {rom.name}. Saved file to {img_path}")
+                    print(f"      found image for {rom.name}. Saved file to {img_path}")
                 else:
-                    print(f"Failed to get screenshot for {rom.name}")
+                    print(f"      Failed to get screenshot for {rom.name}")
    

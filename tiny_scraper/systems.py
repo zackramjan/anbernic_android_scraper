@@ -68,33 +68,17 @@ systems = [
     {"name": "atomiswave", "id": 53, "extensions": ["chd", "bin", "gdi", "zip"]},
     {"name": "cps2", "id": 7, "extensions": ["zip", "chd", "ccd"]},
     {"name": "dreamcast", "id": 23, "extensions": ["cdi", "gdi", "chd", "bin", "zip"]},
-    {
-        "name": "fc",
-        "id": 3,
-        "extensions": ["nes", "fds", "unf", "unif", "nez", "nsf", "zip"],
-    },
+    { "name": "nes", "id": 3, "extensions": ["nes", "fds", "unf", "unif", "nez", "nsf", "zip"]},
     {"name": "gba", "id": 12, "extensions": ["gba", "bin", "zip"]},
     {"name": "gw", "id": 52, "extensions": ["mgw", "zip"]},
     {"name": "mame", "id": 75, "extensions": ["zip", "chd", "bin"]},
-    {
-        "name": "msx",
-        "id": 113,
-        "extensions": ["rom", "dsk", "cas", "mx1", "mx2", "col", "zip"],
-    },
+    { "name": "msx", "id": 113, "extensions": ["rom", "dsk", "cas", "mx1", "mx2", "col", "zip"]},
     {"name": "nds", "id": 15, "extensions": ["nds", "bin", "zip"]},
     {"name": "ons", "id": 0, "extensions": ["zip"]},
-    {
-        "name": "pcecd",
-        "id": 114,
-        "extensions": ["cue", "ccd", "chd", "pce", "iso", "sgx", "zip"],
-    },
+    { "name": "pcecd", "id": 114, "extensions": ["cue", "ccd", "chd", "pce", "iso", "sgx", "zip"]},
     {"name": "poke", "id": 211, "extensions": ["min", "zip"]},
     {"name": "ps2", "id": 58, "extensions": ["iso","bin"]},
-    {
-        "name": "psp",
-        "id": 61,
-        "extensions": ["iso", "cso", "pbp", "chd", "m3u", "toc", "zip"],
-    },
+    { "name": "psp", "id": 61, "extensions": ["iso", "cso", "pbp", "chd", "m3u", "toc", "zip"]},
     {
         "name": "sega32x",
         "id": 19,
@@ -126,7 +110,7 @@ systems = [
     {"name": "fds", "id": 0, "extensions": ["zip"]},
     {"name": "gbc", "id": 10, "extensions": ["gb", "gbc", "bin", "zip"]},
     {"name": "hbmame", "id": 0, "extensions": ["zip"]},
-    {"name": "md", "id": 1, "extensions": ["gen", "md", "smd", "bin", "sg", "zip"]},
+    {"name": "megadrive", "id": 1, "extensions": ["gen", "md", "smd", "bin", "sg", "zip"]},
     {"name": "n64", "id": 14, "extensions": ["n64", "v64", "z64", "bin", "zip"]},
     {"name": "neogeo", "id": 0, "extensions": ["zip"]},
     {"name": "ngc", "id": 13, "extensions": ["iso"]},
@@ -135,12 +119,8 @@ systems = [
 
     {"name": "openbor", "id": 214, "extensions": ["pak", "zip"]},
     {"name": "pgm2", "id": 0, "extensions": ["zip"]},
-    {
-        "name": "saturn",
-        "id": 22,
-        "extensions": ["chd", "bin", "iso", "cue", "mdf", "m3u", "zip"],
-    },
-    {"name": "sfc", "id": 4, "extensions": ["sfc", "smc", "fig", "swc", "mgd", "zip"]},
+    { "name": "saturn", "id": 22, "extensions": ["chd", "bin", "iso", "cue", "mdf", "m3u", "zip"]},
+    {"name": "snes", "id": 4, "extensions": ["sfc", "smc", "fig", "swc", "mgd", "zip"]},
     {"name": "vb", "id": 11, "extensions": ["vb", "bin", "vboy", "zip"]},
 ]
 

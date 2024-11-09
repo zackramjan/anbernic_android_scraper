@@ -100,7 +100,7 @@ class Scraper:
         encoded_game_name = urllib.parse.quote(game_name)
         url = f"https://api.screenscraper.fr/api2/jeuInfos.php?devid={decoded_devid}&devpassword={decoded_devpassword}&softname=tiny-scraper&output=json&ssid={self.user}&sspassword={self.password}&crc={crc}&systemeid={system_id}&romtype=rom&romnom={encoded_game_name}"
 
-        print(f"Scraping screenshot for {game_name}...")
+        print(f"   Scraping screenshot for {game_name}...")
         request = Request(url)
         try:
             with urlopen(request, context=ctx) as response:
