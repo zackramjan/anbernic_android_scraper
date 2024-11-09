@@ -39,6 +39,9 @@ I've personally only tested it on the RG406V SD card structure
 3. **Start Tiny Scraper:**
    - Plug in your sdcard and run tiny.scraper.sh
 
+3. **generate gamelist xml for each platform:**
+   - Plug in your sdcard and run generate_gamelistxml.py
+
 
 ## Troubleshooting
 
