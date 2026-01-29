@@ -1,8 +1,8 @@
 {
-    "user": "your_user",
-    "password": "your_password",
-    "media_type": "ss",
-    "region": "wor",
+    "user": "strongrejects",
+    "password": "burfazbavqesMitgi3",
+    "media_type": "box-2D",
+    "region": "us",
     "romspath": "/Volumes/osxhs/Users/zack/Downloads/roms",
-    "imagedir": "images"
+    "imagedir": "Imgs"
 }
